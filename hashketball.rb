@@ -146,9 +146,9 @@ end
 def find_team(name)
   teams.find{|team| team.fetch(:team_name) == name}
 end
-#
-# def team_colors(team)
-#   find_team(team)[:colors]
-# end
-#
-# team_colors("Brooklyn Nets")
+
+def team_colors(team)
+  find_team(team)[:colors]
+end
+
+team_colors("Brooklyn Nets")
