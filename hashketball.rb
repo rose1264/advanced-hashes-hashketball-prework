@@ -151,4 +151,6 @@ def team_colors(team)
   find_team(team)[:colors]
 end
 
-team_colors("Brooklyn Nets")
+def team_names
+  teams[:team_name]
+end
