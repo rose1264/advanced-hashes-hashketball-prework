@@ -142,7 +142,8 @@ end
 def teams
   home_team = game_hash.fetch(:home)
   away_team = game_hash.fetch(:away)
-  home_team + away_team
+  puts home_team
+  puts away_team
 end
 
 def find_team(name)
