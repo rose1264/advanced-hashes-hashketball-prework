@@ -140,7 +140,7 @@ def shoe_size(name)
 end
 
 def teams
-  gash_hash.values
+  game_hash.values
 end
 teams
 
