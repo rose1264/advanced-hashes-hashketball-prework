@@ -140,13 +140,12 @@ def shoe_size(name)
 end
 
 def teams
-  puts game_hash.values
+  game_hash.values
 end
-teams
 
-# def find_team(name)
-#   teams.find{|team| team.fetch(:team_name) == name}
-# end
+def find_team(name)
+  teams.find{|team| team.fetch(:team_name) == name}
+end
 #
 # def team_colors(team)
 #   find_team(team)[:colors]
