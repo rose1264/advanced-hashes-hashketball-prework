@@ -140,10 +140,7 @@ def shoe_size(name)
 end
 
 def teams
-  home_team = game_hash.fetch(:home)
-  away_team = game_hash.fetch(:away)
-  puts home_team
-  puts away_team
+  gash_hash.values
 end
 teams
 # def find_team(name)
