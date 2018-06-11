@@ -143,6 +143,7 @@ def teams
   gash_hash.values
 end
 teams
+
 # def find_team(name)
 #   teams.find{|team| team.fetch(:team_name) == name}
 # end
