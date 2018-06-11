@@ -170,3 +170,7 @@ end
 def big_shoe_size(name)
   players.sort_by {|player| player.fetch(:shoe)}.last
 end
+
+def big_shoe_rebounds
+  big_shoe_size.fetch(:rebounds)
+end
