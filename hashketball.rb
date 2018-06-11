@@ -152,5 +152,8 @@ def team_colors(team)
 end
 
 def team_names
-  teams[:team_name]
+  teams.map do |team|
+    team[:team_name]
+  end
+
 end
