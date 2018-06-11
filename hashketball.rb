@@ -166,3 +166,5 @@ end
 def player_stats(name)
   find_player(name).reject {|key, value| key == :player_name}
 end
+
+def big_shoe_size
