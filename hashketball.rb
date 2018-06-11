@@ -145,13 +145,13 @@ def teams
   puts home_team
   puts away_team
 end
-
-def find_team(name)
-  teams.find{|team| team.fetch(:team_name) == name}
-end
-
-def team_colors(team)
-  find_team(team)[:colors]
-end
-
-team_colors("Brooklyn Nets")
+teams
+# def find_team(name)
+#   teams.find{|team| team.fetch(:team_name) == name}
+# end
+#
+# def team_colors(team)
+#   find_team(team)[:colors]
+# end
+#
+# team_colors("Brooklyn Nets")
