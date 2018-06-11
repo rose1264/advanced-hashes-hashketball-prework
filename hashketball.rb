@@ -138,3 +138,17 @@ end
 def shoe_size(name)
   find_player(name)[:shoe]
 end
+
+def teams
+  home_team = game_hash.fetch(:home)
+  away_team = game_hash.fetch(:away)
+  home_team + away_team
+end
+
+def find_team(name)
+  teams.find{|team| team.fetch(:team_name) == name}
+end
+
+def team_colors(team)
+  find_team(team)[:colors]
+end
